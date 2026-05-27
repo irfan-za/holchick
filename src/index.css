@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", sans-serif;
+  --font-body: "Outfit", sans-serif;
+  --color-brand: #e8751a;
+  --color-brand-dark: #c7600f;
+  --color-accent: #c1272d;
+  --color-accent-dark: #a12025;
+  --color-cream: #fef8f0;
+  --color-warm-50: #fef8f0;
+  --color-warm-100: #fdf1e0;
+  --color-warm-200: #fae2c0;
+  --color-warm-900: #1a1714;
+  --color-warm-950: #11100e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-warm-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-brand);
+  color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
