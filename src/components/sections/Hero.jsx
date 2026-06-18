@@ -77,7 +77,7 @@ export default function Hero() {
           >
             <div className="relative aspect-square max-w-[500px] mx-auto">
               <img
-                src="https://picsum.photos/seed/fried-chicken-hero/800/800"
+                src="https://images.unsplash.com/photo-1562967914-608f82629710?w=800&h=800&fit=crop"
                 alt="Holchick crispy fried chicken"
                 className="w-full h-full object-cover rounded-[2rem] shadow-[0_20px_60px_rgba(0,0,0,0.12)]"
               />
